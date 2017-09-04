@@ -12,12 +12,12 @@ airfoil blade sections conducted in an anechoic wind tunnel.
     Missing Values? N/A
     Number of Web Hits: 23686
 
-## Data Set Information:
+## Data Set Information
 
 The NASA data set comprises different size NACA 0012 airfoils at various wind tunnel speeds and angles of attack.
 The span of the airfoil and the observer position were the same in all of the experiments.
 
-## Attribute Information:
+## Attribute Information
 
 This problem has the following inputs:
 
@@ -30,3 +30,7 @@ This problem has the following inputs:
 The only output is:
 
     6. Scaled sound pressure level, in decibels.
+
+## Objective
+
+To build a predictive model which can predict the scaled sound pressure level based on the other 5 random variables.
